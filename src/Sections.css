@@ -1,0 +1,13 @@
+section {
+    min-height: 100vh;
+    padding: 60px 20px;
+    border-bottom: 1px solid #e0cfc1;
+}
+
+section h1,
+section h2,
+section p {
+    color: #3b2e2a;
+    max-width: 600px;
+    line-height: 1.6;
+}

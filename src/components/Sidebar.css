@@ -1,0 +1,37 @@
+.sidebar {
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #f5e9dc;
+    padding: 30px 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #d8b4a0;
+    box-shadow: 0 0 15px rgba(216, 180, 160, 0.4);
+    margin-bottom: 20px;
+
+    filter: brightness(0.98);
+}
+
+.sidebar h2 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    color: #3b2e2a;
+}
+
+.sidebar .title {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #1d4648;
+}
