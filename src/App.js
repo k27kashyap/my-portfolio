@@ -1,15 +1,19 @@
 import './App.css';
+import About from './components/About';
+import Contact from './components/Contact';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Sidebar from './components/Sidebar';
 
 function App() {
     return (
         <div className="app-container">
-            <div className="sidebar">
-                <h1> Khushi Kashyap </h1>
-                <p>SDE</p>
-            </div>
+            <Sidebar />
             <div className="content">
-                <h1>Welcome to my portfolio</h1>
-                <p>This is the right side where the section will go.</p>
+                <Home />
+                <About />
+                <Projects />
+                <Contact />
             </div>
         </div>
     );
